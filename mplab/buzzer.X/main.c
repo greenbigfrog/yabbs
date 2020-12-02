@@ -127,6 +127,7 @@ int main(void) {
                 break;
             }
         }
+        ALARM_OFF(); // Ensure alarm is turned off
         alarm_state = false;
         
         // LED_ARM = LOW
